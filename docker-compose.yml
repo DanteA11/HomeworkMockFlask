@@ -1,0 +1,6 @@
+services:
+  my_mock:
+    build:
+      context: src
+    ports:
+      - 8080:8080
